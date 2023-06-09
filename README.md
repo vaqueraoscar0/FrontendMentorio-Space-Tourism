@@ -18,7 +18,7 @@ The Space Tourism Multipage Website project is a frontend challenge that involve
 
 ### Links
 
-- [Live Demo](https://vaqueraoscar0.github.io/FrontendMentorio-Space-Tourism)
+- [Live Demo](https://vaqueraoscar0.github.io/FrontendMentorio-Space-Tourism/#/home)
 - [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-react-framer-motion-xyz123)
 
 ### Screenshot
