@@ -1,0 +1,340 @@
+.technology{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tec-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    column-gap: 100px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 1440px;
+    height: 900px;
+}
+
+
+.tec-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    width: 460px;
+    height: 100%;
+    gap: 140px;
+}
+
+.tec-img img{
+    width: 515px;
+}
+
+.tec-title{
+    display: flex;
+    margin-top: 190px;
+    gap: 20px;
+}
+
+.tec-title-number{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    letter-spacing: 4px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.tec-number-title{
+    font-family: 'Barlow Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.tec-detail{
+    margin-bottom: 101px;
+}
+
+.tec-details{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.tec-status{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+
+    color: #D0D6F9;
+}
+
+.tec-name{
+    width: 488px;
+    font-family: 'Bellefair', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.tec-description{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #D0D6F9;
+    margin-bottom: 0;
+    width: 445px;
+}
+
+.tec-tab{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tec-tab button{
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: #0B0D17;
+    border-radius: 50%;
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    mix-blend-mode: luminosity;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.tec-tab button:hover{
+    background-color: #a19d9d;
+    color: black;
+}
+
+.tec-tab button:focus{
+    background-color: white;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .technology{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 1200px;
+    }
+
+    .tec-main{
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 1024px;
+        padding-top: 220px;
+    }
+
+    .tec-detail{
+        margin-bottom: 0;
+    }
+
+    .tec-container{
+        margin: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .tec-container .tec-title{
+        position: absolute;
+        top: 120px;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        padding: 0 0 0 70px;
+    }
+
+    .tec-title-number{
+        font-family: 'Barlow Condensed', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+    }
+
+    .tec-number-title{
+        font-family: 'Barlow Condensed', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        letter-spacing: 3.375px;
+        text-transform: uppercase;
+    }
+
+    .tec-details{
+        flex-direction: column;
+    }
+
+    .tec-detail-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tec-detail-txt .tec-status{
+        width: 100%;
+        text-align: center;
+    }
+    .tec-detail-txt .tec-name{
+        width: 100%;
+        text-align: center;
+    }
+    .tec-detail-txt .tec-description{
+        width: 458px;
+        text-align: center;
+    }
+
+    .tec-tab{
+        margin-top: 50px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tec-tab button{
+        font-family: 'Bellefair', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .tec-img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .tec-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    .technology{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 1000px;
+    }
+
+    .tec-main{
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 900px;
+        padding-top: 220px;
+    }
+
+    .tec-detail{
+        margin-bottom: 0;
+    }
+
+    .tec-container .tec-title{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .tec-title-number{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .tec-number-title{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .tec-detail-txt .tec-status{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .tec-detail-txt .tec-name{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tec-detail-txt .tec-description{
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tec-tab button{
+        font-size: 16px;
+        line-height: 18px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .tec-img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
